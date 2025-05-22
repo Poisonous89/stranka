@@ -26,7 +26,14 @@
         <ul>
             <li><img src="images/logo.png" alt="logo"></li>
             <li><p>foundation for children in need</p></li>
-            <li></li>
+            <li>
+                <div class="l">
+                    Join us on:
+                    <a href="https://www.facebook.com" alt="logo">
+                        <img class="fa" src="images/fb2.png" alt="logo">
+                    </a>
+                    </div>
+            </li>
         </ul>
     </footer>
 </body>

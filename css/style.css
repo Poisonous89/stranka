@@ -76,6 +76,7 @@ footer ul{
     text-align: center;
     justify-content: center;
     margin: auto;
+    align-items: center;
 }
 
 footer ul li{
@@ -89,6 +90,8 @@ footer ul li{
     margin: auto;
     padding: 0 150px 0 0;
 }
-hr {
-
+.l {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
