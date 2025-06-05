@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
@@ -20,7 +20,9 @@
         </nav>
     </header>
     <main>
-
+        <div class="card1">
+            <h1>Help children in Africa</h1>
+        </div>
     </main>
     <footer>
         <ul>
@@ -28,7 +30,7 @@
             <li><p>foundation for children in need</p></li>
             <li>
                 <div class="l">
-                    Join us on:
+                    <address>Join us on:</address>
                     <a href="https://www.facebook.com" alt="logo">
                         <img class="fa" src="images/fb2.png" alt="logo">
                     </a>
