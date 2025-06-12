@@ -4,6 +4,7 @@
     outline: none;
     font-size: 100%;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{
@@ -16,8 +17,16 @@ body{
     margin-bottom: 30px;
 }
 
+.logo{
+    height: 60px;
+}
+
 .navigation{
     width: 100%;
+}
+
+nav ul li{
+    padding-left: 60px;
 }
 
 .navigation ul{
@@ -36,7 +45,7 @@ body{
 .navigation ul li a{
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     cursor: pointer;
     display: block;
@@ -55,6 +64,7 @@ main{
     height: calc(100vh - 130px);
     display: flex;
     margin: 0px 15rem;
+    justify-content: center;
 }
 
 h1{
@@ -98,10 +108,56 @@ footer ul li{
     justify-content: center;
 }
 .card1 {
-    
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    width: 1152px;
 }
 footer ul li div{
     display: flex;
     justify-content: space-between ;
     align-items: center;
+}
+main div div {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.cier {
+    height: 300px;
+}
+.button{
+    background-color: #222;
+    width: fit-content;
+    margin: 12px 0 0 0;
+    padding: 10px;
+    border-radius: 9px;
+}
+main div div div a{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: 500;
+}
+main div div h1{
+    font-size: 50px;
+}
+.image{
+    margin: auto;
+    margin-top: 0;
+}
+main div div p{
+    font-size: 20px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+.d2{
+    display: flex;
+    flex-direction: row;
+}
+.nadpis{
+    display: flex;
+    justify-content: center;
 }
