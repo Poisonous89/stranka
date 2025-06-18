@@ -83,7 +83,7 @@ a {
     color: var(--dark-color);
     font-family: sans-serif;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 550;
     padding: 8px 16px;
     transition: color 300ms ease;
 }
@@ -207,6 +207,12 @@ a {
     padding: 24px 0;
 }
 
+.sum{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -268,3 +274,130 @@ a {
         text-align: center;
     }
 }
+
+.content {
+    padding: 60px 0;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.hero {
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.text {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+.donation-hero {
+            background-color: var(--secondary-color);
+            padding: 60px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .donation-hero h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .donation-hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .donation-form {
+            max-width: 500px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+        
+        .amount-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .amount-btn {
+            background: white;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 15px;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .amount-btn:hover, .amount-btn.selected {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .custom-amount {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        
+        .payment-options {
+            margin-bottom: 30px;
+        }
+        
+        .payment-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: var(--dark-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+        
+        .payment-btn:hover {
+            background: var(--primary-color);
+        }
+        
+        .other-ways {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 600px) {
+            .amount-options {
+                grid-template-columns: 1fr;
+            }
+        }
